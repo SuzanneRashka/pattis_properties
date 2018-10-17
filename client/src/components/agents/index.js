@@ -16,6 +16,7 @@ const Agents = props => (
                     <input type="text" class="form-control" placeholder="agent three" />
                 </div>
             </div>
+            <button id="submit" class="btn btn-sm pull-right">Submit!</button>
         </form>
     </div>
 

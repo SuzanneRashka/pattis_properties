@@ -7,18 +7,19 @@ const Clients = props => (
         <form>
             <div class="row">
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="price" />
+                    <input type="text" id="price" class="form-control" placeholder="price" />
                 </div>
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="down payment" />
+                    <input type="text" id="dwnpmt" class="form-control" placeholder="down payment" />
                 </div>
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="net" />
+                    <input type="text" id="net" class="form-control" placeholder="net" />
                 </div>
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="gross" />
+                    <input type="text" id="gross" class="form-control" placeholder="gross" />
                 </div>
             </div>
+            <button id="submit" class="btn btn-sm pull-right">Submit!</button>
         </form>
     </div>
 

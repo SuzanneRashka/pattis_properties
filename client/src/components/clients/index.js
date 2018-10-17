@@ -7,12 +7,13 @@ const Clients = props => (
         <form>
             <div class="row">
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="First name" />
+                    <input type="text" id="first-name" class="form-control" placeholder="First name" />
                 </div>
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name" />
+                    <input type="text" id="last-name" class="form-control" placeholder="Last name" />
                 </div>
             </div>
+            <button id="submit" class="btn btn-sm pull-right">Submit!</button>
         </form>
     </div>
 

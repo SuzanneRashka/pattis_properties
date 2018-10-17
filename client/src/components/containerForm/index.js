@@ -22,7 +22,7 @@ class ContainerForm extends Component {
                 <ul id="horizontal-list">
                     <Tab tab={0}>
                         {({ select }) => (
-                            <li onClick={select}>
+                            <li className="box" onClick={select}>
                                 {'Client List'}
                             </li>
                         )}
@@ -30,7 +30,7 @@ class ContainerForm extends Component {
 
                     <Tab tab={1}>
                         {({ select }) => (
-                            <li onClick={select}>
+                            <li className="box" onClick={select}>
                                 {'Agent List'}
                             </li>
                         )}
@@ -38,7 +38,7 @@ class ContainerForm extends Component {
 
                     <Tab tab={2}>
                         {({ select }) => (
-                            <li onClick={select}>
+                            <li className="box" onClick={select}>
                                 {'Commissions'}
                             </li>
                         )}
