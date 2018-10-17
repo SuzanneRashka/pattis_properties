@@ -9,9 +9,19 @@ ul#horizontal-list {
     list-style: none;
     padding: 20px;
     border: 1px groove grey;
+    justify-content: space-between;
 }
 
 ul#horizontal-list li {
     display: inline;
-    padding: 0px 50px;
+    padding: 0px 12%;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+    ul#horizontal-list li {
+        display: flex;
+        padding: 0px 10px;
+        justify-content: space-between;
+    }
 }
