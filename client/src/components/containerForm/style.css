@@ -1,0 +1,17 @@
+.inner-form {
+    background-color: #f2f2f2;
+    border: 2px groove;
+    margin-top: 40px;
+    padding: 20px 20px;
+}
+
+ul#horizontal-list {
+    list-style: none;
+    padding: 20px;
+    border: 1px groove grey;
+}
+
+ul#horizontal-list li {
+    display: inline;
+    padding: 0px 50px;
+}

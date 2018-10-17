@@ -14,14 +14,18 @@
     "heroku-postbuild": "yarn build"
   },
   "dependencies": {
+    "@bsonntag/react-tabs": "^0.0.1",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "mysql": "^2.16.0",
     "nodemon": "^1.18.4",
     "path": "^0.12.7",
     "react": "^16.5.2",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.5"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.5",
+    "react-tabs": "^2.3.0"
   },
   "eslintConfig": {
     "extends": "react-app"
